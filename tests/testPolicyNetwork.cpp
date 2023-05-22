@@ -1,5 +1,5 @@
 #include <gtest/gtest.h>
-#include "sjsuCuDNN/policyNetwork.h"
+#include "sjsuCuDNN/policyNetwork.cuh"
 #include <opencv2/opencv.hpp>
 
 TEST(SoftmaxTest, OutputValidation) {
