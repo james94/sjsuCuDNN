@@ -1,5 +1,5 @@
 #include <gtest/gtest.h>
-#include "sjsuCuDNN/relu.h"
+#include "sjsuCuDNN/relu.cuh"
 
 TEST(ReluTest, OutputValidation) {
     const int size = 10;

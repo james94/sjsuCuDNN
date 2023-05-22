@@ -46,7 +46,7 @@ set(SRCS
 )
 
 set(HDRS
-    include/sjsuCuDNN/relu.h
+    include/sjsuCuDNN/relu.cuh
     include/sjsuCuDNN/reluKernel.cuh
 )
 

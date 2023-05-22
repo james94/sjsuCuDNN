@@ -1,5 +1,5 @@
 #include <sjsuCuDNN/reluKernel.cuh>
-#include <sjsuCuDNN/relu.h>
+#include <sjsuCuDNN/relu.cuh>
 #include <iostream>
 
 void relu(const float* host_input, float* host_output, int size) {

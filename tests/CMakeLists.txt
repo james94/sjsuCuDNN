@@ -6,7 +6,7 @@ find_package(GTest REQUIRED)
 # Add sjsuCuDNNTests executable
 add_executable(${PROJECT_NAME}
     test.cpp
-    testRelu.cu
+    testRelu.cpp
     testReluKernel.cu
 )
 
