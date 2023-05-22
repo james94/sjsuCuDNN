@@ -1,9 +1,10 @@
 #include <sjsuCuDNN/linearKernel.cuh>
-#include <sjsuCuDNN/linear.h>
+#include <sjsuCuDNN/linear.cuh>
 #include <sjsuCuDNN/reluKernel.cuh>
-#include <sjsuCuDNN/relu.h>
+#include <sjsuCuDNN/relu.cuh>
 #include <sjsuCuDNN/softmaxKernel.cuh>
-#include <sjsuCuDNN/softmax.h>
+#include <sjsuCuDNN/softmax.cuh>
+#include <sjsuCuDNN/PolicyNetwork.cuh>
 #include <iostream>
 
 PolicyNetwork::PolicyNetwork(int input_size, int hidden_size, int output_size) {
